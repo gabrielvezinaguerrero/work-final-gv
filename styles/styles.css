@@ -1,0 +1,373 @@
+html {
+    scroll-behavior: smooth;
+  }
+*{
+    margin: 5px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+.icon-container{
+    font-size: 30px;
+    position: absolute;
+    bottom: 10px;
+    left: 43%;
+} 
+.header{
+    color: black;
+    height: 100vh ;
+    background-image:linear-gradient(to right, rgba(237, 237, 241, 0.329),rgba(150, 144, 146, 0.199)),url(../images/black-mountain.jpg);
+    background-size: cover;
+    border-style: solid;
+
+}
+
+.header-fr{
+    color: black;
+    height: 100vh ;
+    background-image:linear-gradient(to right, rgba(237, 237, 241, 0.329),rgba(150, 144, 146, 0.199)),url(../images/grey-falls.jpg);
+    background-size: cover;
+    border-style: solid;
+}
+.header-it{
+    color: black;
+    height: 100vh ;
+    background-image:linear-gradient(to right, rgba(237, 237, 241, 0.329),rgba(150, 144, 146, 0.199)),url(../images/spiagia-grigio.jpg);
+    background-size: contain;
+    border-style: solid;
+}
+ 
+.heading-main{
+    font-size: 72px;
+    letter-spacing:15px;
+    animation-name: animationFromLeft;
+    animation-duration: 1s;
+}
+.heading-subsection{
+   font-size: 38px;
+   letter-spacing: 6px;
+     /* Add animation to the class */
+   animation-name: fadeIn;
+   animation-duration: 4;
+     }
+.heading-subsection-it{
+    font-size: 38px;
+   letter-spacing: 6px;
+   color: floralwhite;
+   animation-name: fadeIn;
+   animation-duration: 4;
+  }
+.logo-container{
+    color: black;
+    font-size: 38px;
+    letter-spacing: 3px;
+    position:absolute;
+    top: 47%;
+    left: 39%;
+ 
+}
+.logo-container-it{
+    color: black;
+    font-size: 38px;
+    letter-spacing: 3px;
+    position:absolute;
+    top: 47%;
+    left: 39%;
+}
+.heading{
+    font-size: 38px;
+    position:absolute;
+    top: 60%;
+    left: 50.5%;
+    transform: translate(-50%,-50%);
+}
+.heading-it{
+    font-size: 38px;
+    position:absolute;
+    top: 60%;
+    left: 50.5%;
+    transform: translate(-50%,-50%);
+    color: floralwhite;
+}
+.contact-me-container{
+    background-color:rgba(168, 156, 156, 0.507);
+    position:fixed;
+    bottom: 0px;
+    right: 10px;
+    color: black; 
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 12, 94);
+
+    padding: 15px;
+    border-radius:15px 15x 0 0;
+}
+ .linked-in{
+     font-size: 16px;
+     font-weight: 600;
+     color: rgb(13, 12, 94);
+        
+
+ }
+ .images-head-shot{
+  width:250px;
+  height:250px;
+ }
+ .cupa1{
+  height:340px;
+  width:430px
+ }
+ .cupa2{
+  height:340px;
+  width:430px
+ }
+ .bl-t{
+  height:320px;
+  width:220px;
+ }
+ .bli-logo{
+  height:320px;
+  width:220px;
+ }
+ .ilovetravel{
+  height:320px;
+  width:260px;
+ }
+img{
+    float: left;
+}
+section{ float: right;}
+ 
+body{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    background-image:linear-gradient(to right, rgba(237, 237, 241, 0.329),rgba(150, 144, 146, 0.199)),url(../images/black-mountain.jpg);
+    border-style: solid;
+    background-size: contain;
+}   
+.about-me{
+    flex-wrap:left;
+    background-color: whitesmoke;
+    border-style: solid;
+    border-width: 2px;
+
+}
+
+
+.academic-background{
+    border-style: solid;
+    border-width:2px;
+    background-color: whitesmoke;
+}
+
+.images-bli{
+    background-position: left;
+}
+.work-expirience{
+    border-style: solid;
+   border-width: 2px;
+   background-color: whitesmoke;
+}
+
+span{float: left;}
+
+/* skills and langs begins----------------------------------------------------------------------------------- */
+
+.s-l{
+   float:left; 
+   border-style: solid;
+   border-width: 2px;
+   background-color: rgb(204, 197, 197);
+   width: 98%;
+   background-image:linear-gradient(to right, rgba(237, 237, 241, 0.329),rgba(150, 144, 146, 0.199)),url(../images/montreal-grey.jpg);
+    background-size: cover;
+    font-weight: 900;
+    color:black;
+    text-align: left;
+}
+.competences{
+    float: left; 
+   border-style: solid;
+   border-width: 2px;
+   background-color: rgb(204, 197, 197);
+   width: 98%;
+   background-image:linear-gradient(to right, rgba(237, 237, 241, 0.329),rgba(150, 144, 146, 0.199)),url(../images/snowy-hill.jpg);
+    background-size: cover;
+    font-weight: 900;
+    color:black;
+}
+.lingue-e-piu{
+    float: left; 
+    border-style: solid;
+    border-width: 2px;
+    background-color: rgb(204, 197, 197);
+    width: 98%;
+    background-image:linear-gradient(to right, rgba(250, 250, 255, 0.178),rgba(216, 206, 210, 0.219)),url(../images/spiagia-blanco.jpg);
+     background-size:cover ;
+     font-weight: 900;
+     color:black;
+}
+
+
+/* skills and langs ends here------------------------------------------------------------------------------- */
+.future{
+    border-style: solid;
+   border-width: 2px;
+   background-color: rgb(255, 251, 251);
+
+}
+.footer{
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+   background-size: cover;
+   background-image:linear-gradient(to right, rgba(237, 237, 241, 0.329),rgba(150, 144, 146, 0.199)),url(../images/black-mountain.jpg);
+}
+.footer-fr{
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+   background-size: cover;
+   background-image:linear-gradient(to right, rgba(237, 237, 241, 0.329),rgba(150, 144, 146, 0.199)),url(../images/black-mountain.jpg);
+    float: left;
+}
+/*  end of main pages ----------------------------------------------------------------------------------*/
+
+
+/* CONTACT PAGE AND INQURIES   ------------------------------------------------------------------------ */
+/* Full-width input fields */
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+  font-size: 16px;
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 16px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Input fields on focus*/
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.contact-us-outer-container {
+  background-image: linear-gradient(to right bottom, #727577bb, #7172a3c2);
+  color: white;
+}
+
+.contact-us-inner-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.radio-input {
+  margin: 15px;
+}
+.select-box {
+  height: 40px;
+}
+
+.submit-button {
+  background-color: #111764;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.submit-button:hover {
+  opacity: 1;
+}
+
+.heading-container {
+  text-align: center;
+}
+
+.contact-us-heading {
+  font-size: 30px;
+}
+
+.field-container {
+  margin: 15px;
+}
+
+.form-container {
+  margin: 20px;
+}
+
+/* media screen---------------------------------------------------------------------------------------------- */
+ 
+/* Apply media query on screens smaller than 720px ------------------------------------------------------------*/
+@media screen and (max-width: 720px) {
+    /* Remove image on smaller screens */
+    .header {
+      background-image: linear-gradient(to right bottom, #727577bb, #7172a3c2);
+    }
+    .logo-container {
+      font-size: 30px;
+      top: 20px;
+      left: 20px;
+    }
+  
+    .heading-main {
+      font-size: 20px;
+      letter-spacing: 20px;
+      text-indent: 20px;
+    }
+  
+    .heading-subsection {
+      font-size: 10px;
+      letter-spacing: 2.3px;
+      text-indent: 20px;
+    }
+  }
+  
+  .heading-main {
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 35px;
+  
+    
+  }
+  
+  /* Create an animation */
+  @keyframes animationFromLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+  
+    80% {
+      transform: translateX(10px);
+      /* transform: rotate(180deg); */
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  /* Create an animation */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
